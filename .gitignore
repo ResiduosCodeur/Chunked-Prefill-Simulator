@@ -41,6 +41,7 @@ codegen/
 
 # Project outputs
 results/raw/
+results/graphs
 
 # Python (for the later port)
 __pycache__/
