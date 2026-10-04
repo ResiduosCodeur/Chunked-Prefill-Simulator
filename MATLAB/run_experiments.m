@@ -15,8 +15,9 @@ function run_experiments(which)
 % CSVs  -> results/raw/     PNGs -> results/graphs/
 
 if nargin < 1, which = 1:6; end
-root = fileparts(fileparts(mfilename('fullpath')));
-addpath(fullfile(root, 'src'));
+here = fileparts(mfilename('fullpath'));   % the MATLAB/ folder
+root = fileparts(here);                    % repo root
+addpath(fullfile(here, 'src'));            % MATLAB/src
 rawDir   = fullfile(root, 'results', 'raw');
 graphDir = fullfile(root, 'results', 'graphs');
 if ~exist(rawDir,   'dir'), mkdir(rawDir);   end
