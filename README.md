@@ -80,7 +80,8 @@ chunked-prefill-simulator/
 ├── tests/                       # 
 ├── results/
 │   ├── raw/                     # CSV output of the experiments
-│   └── graphs/                  # PNG graphs
+│   └── graphs/                  # PNG output graphs of the experiments
+|   └── sample_graphs/           # contains sample graphs
 ├── Dockerfile                   # 
 ├── docker-compose.yml           # 
 ├── requirements.txt             # Python dependencies
