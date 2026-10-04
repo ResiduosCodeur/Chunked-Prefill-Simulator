@@ -150,17 +150,7 @@ Edit `MATLAB/src/default_config.m`:
 
 ---
 
-## 5. Roadmap
-
-- [x] MATLAB simulator for normal vs chunked prefill
-- [x] TTFT, throughput and time-between-tokens comparison with graphs
-- [ ] Python port following the `src/` layout above
-- [ ] Docker packaging (`Dockerfile`, `docker-compose.yml`, setup instructions)
-- [ ] Web demo: enter a prompt and see graphs for that input
-
----
-
-## 6. References
+## 5. References
 
 - Agrawal et al., *SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills*, 2023. https://arxiv.org/abs/2308.16369
 - Docker: https://www.docker.com/
